@@ -1,0 +1,23 @@
+to install package globally:
+npm i nodemon -g
+
+to check nodemon version:
+nodemon -version
+
+#when you install package globally then no dependency will get added in dependencies object of package.json file
+
+module wrapper function => IIFE
+
+
+JSON 
+const bio = {
+    name:"Anjali",
+    age:22
+}
+//json: ["name":"Anjali","age":22]
+
+object -> JSON(stringify) 
+const jsondata = JSON.stringify(bio);
+
+JSON -> object(parse)
+const jsonon = JSON.parse(jsondata)
